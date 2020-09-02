@@ -1,0 +1,450 @@
+
+:root{
+
+    --def-font-family: 'Barlow', sans-serif;
+    --def-font-size: 16px;
+
+    --mobile-font-size: 14px;
+
+
+    --primary: rgb(165, 154, 154);
+    --secondary: blue;
+    --bg-primary: white;
+
+    --main-container: 1280px;
+
+
+    font-family: var(--def-font-family);
+    font-size: var(--def-font-size);
+}
+
+
+
+
+
+a{
+    color: black;
+    text-decoration: none;
+    position:relative;
+    font-size:1rem;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 600;
+    
+}
+h2{
+    font-size: 1.5rem;
+    font-weight: 500; 
+    padding:20px 0;
+}
+h3{
+    font-size:2.3rem;
+    font-weight:500;
+    line-height:3rem;
+    margin:25px 0;
+}
+p{
+    font-size:1.125rem;
+    font-weight:300;
+    padding-bottom:20px;
+}
+
+
+
+.header2{
+    width:100%;
+    background-color:white;
+    
+    position: sticky;
+    top: 0;
+    left: 0;
+    right:0;
+    bottom:0;
+    z-index:10;
+
+    
+}
+
+.header-wrapper{
+    max-width: 1366px;
+    margin:0 auto;
+    padding:0 auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+header img{
+    width: 290px;
+    padding:15px 0;
+
+}
+
+
+nav a{
+    margin:0 20px;
+    
+    
+}
+
+.navtext:hover{
+    padding:0 0 5px 0;
+    border-bottom: solid 1px black;
+    transition: ease-in;
+    transition-duration: 0.1s;
+
+}
+
+.material-icons:hover{
+    color:grey;
+    
+}
+
+
+
+
+
+
+main{
+    background-image:url(images/DalmoroInside.jpeg);
+    max-height:1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding:400px 300px 200px 150px;
+    margin-bottom:100px;
+    
+    box-sizing: border-box;
+}
+
+main a:hover{
+    color:grey;
+}
+
+.text{
+    width:50%;
+    padding:50px 50px 50px 30px;
+    background-color: rgba(230, 230, 230, 0.9);
+    
+}
+
+
+
+
+
+
+section{
+    width:1550px;
+    margin: 100px auto;
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+    
+   
+}
+
+.card1{
+    background-image: url(images/Section1.png);
+    background-size: cover;
+    background-position: center;
+    width:32.5%;
+    min-height:600px;
+    padding:275px 50px 0 50px;
+    box-sizing: border-box;
+
+}
+
+.card1 h2{
+    display:none;
+    font-size: 2rem;
+}
+
+.card1:hover h2{
+    display:inline;
+    transition: ease-in;
+    transition-duration: 0.5s;
+}
+
+
+.card1:hover{
+    background-image: url(images/Section1.png);
+    background-color:rgba(255, 255, 255, 0.7);
+    transition: ease-in;
+    transition-duration: 0.3s;
+    background-blend-mode: screen;
+    background-size: cover;
+    background-position: center;
+    width:32.5%;
+    min-height:600px;
+}
+
+.card2{
+    background-image: url(images/Section2.png);
+    background-size: cover;
+    background-position: center;
+    width:32.5%;
+    min-height:600px;
+    padding:275px 50px 0 50px;
+    box-sizing: border-box;
+}
+
+.card2 h2{
+    display:none;
+    font-size: 2rem;
+}
+
+.card2:hover h2{
+    display:inline;
+    transition: ease-in;
+    transition-duration: 0.5s;
+}
+
+.card2:hover{
+    background-image: url(images/Section2.png);
+    background-color:rgba(255, 255, 255, 0.7);
+    transition: ease-in;
+    transition-duration: 0.3s;
+    background-blend-mode: screen;
+    background-size: cover;
+    background-position: center;
+    width:32.5%;
+    min-height:600px;
+}
+
+
+.card3{
+    background-color: #F5EAEC;
+    background-size: cover;
+    background-position: center;
+    width:32.5%;
+    min-height:600px;
+    padding:200px 50px 0 50px;
+    box-sizing: border-box;
+}
+
+.card3 h2{
+    font-size:2rem;
+}
+
+
+.card3 p{
+    font-size:1rem;
+    line-height:1.5rem;
+    margin-bottom:40px;
+}
+
+.card3 a{
+    border:solid 1px black;
+    padding:15px 25px;
+    font-size:1rem;
+}
+
+.card3 a:hover{
+    background-color:black;
+    color:#F5EAEC;
+    transition: ease-in;
+    transition-duration: 0.3s;
+}
+
+
+
+
+
+
+.about{
+    background-image: url(images/dalmoroselection3.jpeg);
+    background-color:rgba(73, 80, 85, 0.8);
+    background-blend-mode: multiply;
+    max-height:800px;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.abouttext{
+    padding:300px 300px;
+    color:white;
+    text-align: center;
+    
+}
+.about h2{
+    font-size:4.7rem;
+    font-weight: 600;
+    margin-bottom:70px;
+}
+
+.abouttext a{
+    background-color:white;
+    color:black;
+    padding:20px 45px;
+}
+
+
+.abouttext a:hover{
+    background-color:rgba(255, 255, 255, 0);
+    color:white;
+    border:solid 1px white;
+    transition: ease-in;
+    transition-duration: 0.1s;
+}
+
+
+
+
+
+.franchising{
+    background-image:url(images/RawFettucine.jpg);
+    width:1200px;
+    
+    background-size:120%;
+    background-position: -400px -150px;
+    background-repeat: no-repeat;
+}
+.franText{
+    width:1500px;
+    padding:500px 0;
+    margin:0 auto;
+    padding:250px 0 100px 850px;
+    box-sizing:border-box;
+    
+}
+
+.topPara{
+    font-size:0.8rem;
+}
+.franchising p{
+    font-size: 0.95rem;
+    line-height:1.5rem;
+    
+}
+.midPara{
+    margin-bottom:60px;
+}
+
+.franText a{
+    border:solid 1px black;
+    padding:15px 30px;
+   
+}
+.franText a:hover{
+    background-color: black;
+    color:white;
+    transition:ease-in;
+    transition-duration:0.1s;
+}
+.franchising h1{
+    font-size: 15.5rem;
+    font-family: serif;
+    font-weight:200;
+    margin-left:400px;
+}
+
+
+
+
+
+.bottom{
+    width:100%;
+    min-height:600px;
+    margin:200px auto;
+    display:flex;
+    justify-content: space-between;
+}
+
+.card1B{
+    background-image:url(images/Section4.jpg);
+    background-size: cover;
+    background-position: center;
+    width:49.5%;
+    min-height:600px;    
+}
+.card2B{
+    background-image:url(images/Section5.jpg);
+    background-size: cover;
+    background-position: center;
+    width:24.5%;
+    min-height:600px; 
+}
+.card3B{
+    background-image:url(images/Section6.jpg);
+    background-size: cover;
+    background-position: center;
+    width:24.5%;
+    min-height:600px; 
+}
+
+
+
+
+h4{
+    font-size:1.5rem;
+    font-weight: 500;
+}
+.footer{
+    width:1770px;
+}
+
+.footer h4{
+    padding-left:50px;
+    margin-left:50px;
+    
+}
+.footercards a{
+    color:grey;
+}
+.footercards{
+    width:1770px;
+    margin:50px auto;
+    display:flex;
+    
+    
+}
+.footercards h4{
+    margin-bottom:10px;
+}
+.footercards p{
+    font-size:0.85rem;
+}
+.card1F,.card2F,.card3F,.card4F{
+    box-sizing:border-box;
+    flex:1;
+    padding:0 40px 0 30px;
+    line-height:1.8rem;
+
+}
+.card1F{
+    border-right:solid 1px black;
+}
+.card2F{
+    border-right:solid 1px black;
+}
+.card3F{
+    border-right:solid 1px black;
+}
+
+
+.footerB h4{
+    font-size:1.2rem;
+}
+.footerB{
+    width:95%;
+    margin:100px auto 20px auto;
+    display:flex;
+    justify-content: space-between;
+}
+.part2 a{
+    padding:0 10px;
+}
+.border{
+    border-left:solid 1px black;
+    border-right:solid 1px black;
+}
+
+
+@media screen and (max-width: 750px){
+    :root{
+        font-size: var(--mobile-font-size);
+    }
+}
